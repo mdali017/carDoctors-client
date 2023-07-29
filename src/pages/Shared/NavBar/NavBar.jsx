@@ -27,7 +27,7 @@ const NavBar = () => {
       {/* <div className="navbar bg-base-100 h-28 fixed z-10 max-w-7xl"> */}
       <div
         className={`${
-          bg ? "bg-slate-800 h-24 p-5" : "bg-slate-400 h-24"
+          bg ? "bg-slate-800 h-10 md:h-24 p-5" : "bg-slate-400 h-10 md:h-24"
         } navbar max-w-7xl flex items-center fixed top-0 w-full text-white z-10 transition-all duration-300`}
       >
         <div className="navbar-start">
