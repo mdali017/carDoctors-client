@@ -17,7 +17,6 @@ const Home = () => {
       <PopularProducts></PopularProducts>
       <TeamSection></TeamSection>
       <CoreFeature></CoreFeature>
-      <h1>Home Module: 71-7 video</h1>
     </div>
   );
 };
