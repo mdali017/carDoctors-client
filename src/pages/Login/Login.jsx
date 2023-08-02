@@ -1,10 +1,15 @@
 import React, { useContext } from "react";
 import img from "../../assets/images/login/login.svg";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
+import SocialLogin from "../Shared/SocialLogin/SocialLogin";
 
 const Login = () => {
   const { signIn } = useContext(AuthContext);
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const from = location?.state?.pathname || "/";
 
   const handleLogin = (event) => {
     event.preventDefault();
@@ -16,8 +21,28 @@ const Login = () => {
 
     signIn(email, password)
       .then((result) => {
-        const loggedUser = result.user;
-        console.log(loggedUser);
+        const user = result.user;
+        // const loggedUser = {
+        //   email: user.email,
+        // };
+        console.log(user);
+        navigate(from, { replace: true });
+
+        // fetch("https://car-doctor-server-new-kappa.vercel.app/jwt", {
+        //   method: "POST",
+        //   headers: {
+        //     "content-type": "application/json",
+        //   },
+        //   body: JSON.stringify(loggedUser),
+        // })
+        //   .then((res) => res.json())
+        //   .then((data) => {
+        //     console.log("jwt response", data);
+
+        //     // local storage is best
+        //     localStorage.setItem("car-access-token", data.token);
+        //     // navigate(from, { replace: true });
+        //   });
       })
       .catch((err) => {
         console.log(err);
@@ -64,6 +89,7 @@ const Login = () => {
                 Login
               </button>
             </div>
+            <SocialLogin></SocialLogin>
           </form>
           <div className="text-center pb-5 ">
             <small>

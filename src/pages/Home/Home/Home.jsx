@@ -3,6 +3,7 @@ import Banner from "../Banner/Banner";
 import About from "../About/About";
 import Services from "../Services/Services";
 import HotSection from "../HotSection/HotSection";
+import PopularProducts from "../PopularProducts/PopularProducts";
 
 const Home = () => {
   return (
@@ -11,7 +12,8 @@ const Home = () => {
       <About></About>
       <Services></Services>
       <HotSection></HotSection>
-      <h1>Home</h1>
+      <PopularProducts></PopularProducts>
+      <h1>Home Module: 71-7 video</h1>
     </div>
   );
 };

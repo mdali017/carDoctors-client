@@ -1,8 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../../assets/icons/logo.svg";
+import { AuthContext } from "../../../providers/AuthProvider";
 
 const NavBar = () => {
+  const { user, LogOut } = useContext(AuthContext);
   const [bg, setBG] = useState(false);
 
   useEffect(() => {
@@ -10,6 +12,15 @@ const NavBar = () => {
       return window.scrollY > 50 ? setBG(true) : setBG(false);
     });
   }, []);
+
+  const handleLogOut = () => {
+    LogOut()
+      .then(() => {
+        // localStorage.removeItem("car-access-token");
+      })
+      .catch((err) => console.log(err));
+  };
+
   const navItems = (
     <>
       <li>
@@ -18,9 +29,20 @@ const NavBar = () => {
       <li>
         <Link>About</Link>
       </li>
-      <li>
-        <Link to="/login">Login</Link>
-      </li>
+      {user?.email ? (
+        <>
+          <li>
+            <button onClick={handleLogOut}>Log Out</button>
+          </li>
+          <li>
+            <Link to="/bookings">My Bookings</Link>
+          </li>
+        </>
+      ) : (
+        <li>
+          <Link to="/login">Login</Link>
+        </li>
+      )}
     </>
   );
 
