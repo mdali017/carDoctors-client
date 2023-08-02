@@ -1,0 +1,162 @@
+[
+    {
+      "name": "John Smith",
+      "passion": "Innovating Sustainable Mobility",
+      "social_links": {
+        "linkedin": "https://www.linkedin.com/in/john-smith",
+        "twitter": "https://twitter.com/johnsmith",
+        "github": "https://github.com/johnsmith",
+        "website": "https://www.johnsmithengineering.com"
+      },
+      "description": "John is a dedicated car engineer who is passionate about finding innovative solutions for sustainable mobility. He loves working on electric and hybrid vehicle technologies to reduce the carbon footprint of transportation.",
+      "rating": 4.7,
+      "experience": "10+ years",
+      "charge": "$100/hour",
+      "work_period": "Full-time",
+      "profile_image_url": "https://i.ibb.co/k5K9P0G/1.jpg"
+    },
+    {
+      "name": "Emma Johnson",
+      "passion": "Advancing Autonomous Driving",
+      "social_links": {
+        "linkedin": "https://www.linkedin.com/in/emmajohnson",
+        "twitter": "https://twitter.com/emmajohnson",
+        "github": "https://github.com/emmajohnson",
+        "website": "https://www.emmajohnsonengineering.com"
+      },
+      "description": "Emma is an expert in autonomous driving technology. Her passion lies in developing advanced driver-assistance systems (ADAS) and self-driving features to improve road safety and revolutionize the automotive industry.",
+      "rating": 4.9,
+      "experience": "12+ years",
+      "charge": "$120/hour",
+      "work_period": "Full-time",
+      "profile_image_url": "https://i.ibb.co/HdxMkLh/2.jpg"
+    },
+    {
+      "name": "Michael Brown",
+      "passion": "Enhancing Vehicle Performance",
+      "social_links": {
+        "linkedin": "https://www.linkedin.com/in/michaelbrown",
+        "twitter": "https://twitter.com/michaelbrown",
+        "github": "https://github.com/michaelbrown",
+        "website": "https://www.michaelbrownengineering.com"
+      },
+      "description": "Michael is a skilled car engineer who loves optimizing vehicle performance. He specializes in tuning engines, improving aerodynamics, and maximizing power output to deliver an exhilarating driving experience.",
+      "rating": 4.6,
+      "experience": "8+ years",
+      "charge": "$90/hour",
+      "work_period": "Full-time",
+      "profile_image_url": "https://i.ibb.co/cwm9hNP/3.jpg"
+    },
+    {
+      "name": "Sophia Lee",
+      "passion": "Designing Futuristic Interiors",
+      "social_links": {
+        "linkedin": "https://www.linkedin.com/in/sophialee",
+        "twitter": "https://twitter.com/sophialee",
+        "github": "https://github.com/sophialee",
+        "website": "https://www.sophialeeengineering.com"
+      },
+      "description": "Sophia is a creative car engineer who is passionate about designing futuristic and ergonomic interiors. She believes that the interior of a car plays a crucial role in providing a comfortable and enjoyable driving experience.",
+      "rating": 4.8,
+      "experience": "9+ years",
+      "charge": "$95/hour",
+      "work_period": "Full-time",
+      "profile_image_url": "https://images.pexels.com/photos/3776969/pexels-photo-3776969.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "name": "David Wang",
+      "passion": "Pushing the Boundaries of Aerodynamics",
+      "social_links": {
+        "linkedin": "https://www.linkedin.com/in/davidwang",
+        "twitter": "https://twitter.com/davidwang",
+        "github": "https://github.com/davidwang",
+        "website": "https://www.davidwangengineering.com"
+      },
+      "description": "David is an aero-dynamics enthusiast, and his passion lies in pushing the boundaries of aerodynamics for enhanced performance and fuel efficiency. He loves designing sleek and efficient vehicle exteriors.",
+      "rating": 4.5,
+      "experience": "11+ years",
+      "charge": "$110/hour",
+      "work_period": "Full-time",
+      "profile_image_url": "https://images.pexels.com/photos/3862617/pexels-photo-3862617.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "name": "Olivia Martinez",
+      "passion": "Incorporating AI in Automotive Systems",
+      "social_links": {
+        "linkedin": "https://www.linkedin.com/in/oliviamartinez",
+        "twitter": "https://twitter.com/oliviamartinez",
+        "github": "https://github.com/oliviamartinez",
+        "website": "https://www.oliviamartinezengineering.com"
+      },
+      "description": "Olivia is an AI enthusiast who loves incorporating artificial intelligence in automotive systems. She works on developing smart features that enhance safety, efficiency, and user experience in vehicles.",
+      "rating": 4.7,
+      "experience": "7+ years",
+      "charge": "$105/hour",
+      "work_period": "Full-time",
+      "profile_image_url": "https://images.pexels.com/photos/2182974/pexels-photo-2182974.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "name": "William Anderson",
+      "passion": "Solving Complex Engineering Challenges",
+      "social_links": {
+        "linkedin": "https://www.linkedin.com/in/williamanderson",
+        "twitter": "https://twitter.com/williamanderson",
+        "github": "https://github.com/williamanderson",
+        "website": "https://www.williamandersonengineering.com"
+      },
+      "description": "William is a problem solver at heart and thrives on tackling complex engineering challenges in the automotive industry. He enjoys finding innovative solutions for unique problems in car design and technology.",
+      "rating": 4.6,
+      "experience": "13+ years",
+      "charge": "$100/hour",
+      "work_period": "Full-time",
+      "profile_image_url": "https://images.pexels.com/photos/3831159/pexels-photo-3831159.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "name": "Ava White",
+      "passion": "Developing Green Energy Solutions",
+      "social_links": {
+        "linkedin": "https://www.linkedin.com/in/avawhite",
+        "twitter": "https://twitter.com/avawhite",
+        "github": "https://github.com/avawhite",
+        "website": "https://www.avawhiteengineering.com"
+      },
+      "description": "Ava is an advocate for green energy solutions in the automotive industry. Her passion lies in developing eco-friendly vehicles and renewable energy sources to reduce the environmental impact of transportation.",
+      "rating": 4.9,
+      "experience": "10+ years",
+      "charge": "$115/hour",
+      "work_period": "Full-time",
+      "profile_image_url": "https://images.pexels.com/photos/1181487/pexels-photo-1181487.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "name": "Daniel Kim",
+      "passion": "Creating Intuitive User Interfaces",
+      "social_links": {
+        "linkedin": "https://www.linkedin.com/in/danielkim",
+        "twitter": "https://twitter.com/danielkim",
+        "github": "https://github.com/danielkim",
+        "website": "https://www.danielkimengineering.com"
+      },
+      "description": "Daniel is a UI/UX enthusiast who loves creating intuitive and user-friendly interfaces for automotive infotainment systems. He believes that a well-designed user interface enhances the overall driving experience.",
+      "rating": 4.8,
+      "experience": "8+ years",
+      "charge": "$95/hour",
+      "work_period": "Full-time",
+      "profile_image_url": "https://images.pexels.com/photos/3862600/pexels-photo-3862600.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "name": "Elizabeth Brown",
+      "passion": "Ensuring Vehicle Safety",
+      "social_links": {
+        "linkedin": "https://www.linkedin.com/in/elizabethbrown",
+        "twitter": "https://twitter.com/elizabethbrown",
+        "github": "https://github.com/elizabethbrown",
+        "website": "https://www.elizabethbrownengineering.com"
+      },
+      "description": "Elizabeth is dedicated to ensuring vehicle safety. She specializes in developing safety systems, crash testing, and evaluating the structural integrity of vehicles to make them safer for all road users.",
+      "rating": 4.7,
+      "experience": "9+ years",
+      "charge": "$100/hour",
+      "work_period": "Full-time",
+      "profile_image_url": "https://images.pexels.com/photos/3861950/pexels-photo-3861950.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  ]

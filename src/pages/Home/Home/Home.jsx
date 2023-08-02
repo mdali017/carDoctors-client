@@ -4,6 +4,8 @@ import About from "../About/About";
 import Services from "../Services/Services";
 import HotSection from "../HotSection/HotSection";
 import PopularProducts from "../PopularProducts/PopularProducts";
+import TeamSection from "../TeamSection/TeamSection";
+import CoreFeature from "../CoreFeature/CoreFeature";
 
 const Home = () => {
   return (
@@ -13,6 +15,8 @@ const Home = () => {
       <Services></Services>
       <HotSection></HotSection>
       <PopularProducts></PopularProducts>
+      <TeamSection></TeamSection>
+      <CoreFeature></CoreFeature>
       <h1>Home Module: 71-7 video</h1>
     </div>
   );
