@@ -7,7 +7,7 @@ const PopularProducts = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("https://car-doctor-server-new-mdali017.vercel.app/products")
       .then((res) => res.json())
       .then((data) => {
         const popularProducts = data.slice(0, 6);

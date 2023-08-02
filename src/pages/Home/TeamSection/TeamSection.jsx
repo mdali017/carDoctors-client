@@ -6,7 +6,7 @@ const TeamSection = () => {
   const [engineers, setEngineer] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/engineer")
+    fetch("https://car-doctor-server-new-mdali017.vercel.app/engineer")
       .then((res) => res.json())
       .then((data) => {
         const topEngineer = data.slice(0, 3);
